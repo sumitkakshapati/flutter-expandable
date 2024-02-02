@@ -84,7 +84,7 @@ class Card1 extends StatelessWidget {
                     padding: EdgeInsets.all(10),
                     child: Text(
                       "ExpandablePanel",
-                      style: Theme.of(context).textTheme.body2,
+                      style: Theme.of(context).textTheme.bodyLarge,
                     )),
                 collapsed: Text(
                   loremIpsum,
@@ -149,7 +149,7 @@ class Card2 extends StatelessWidget {
                 children: <Widget>[
                   Text(
                     "Expandable",
-                    style: Theme.of(context).textTheme.body1,
+                    style: Theme.of(context).textTheme.bodyLarge,
                   ),
                 ],
               ),
@@ -176,11 +176,11 @@ class Card2 extends StatelessWidget {
                 children: <Widget>[
                   Text(
                     "Expandable",
-                    style: Theme.of(context).textTheme.body1,
+                    style: Theme.of(context).textTheme.bodyLarge,
                   ),
                   Text(
                     "3 Expandable widgets",
-                    style: Theme.of(context).textTheme.caption,
+                    style: Theme.of(context).textTheme.bodySmall,
                   ),
                 ],
               ),
@@ -259,7 +259,7 @@ class Card2 extends StatelessWidget {
                           controller.expanded ? "COLLAPSE" : "EXPAND",
                           style: Theme.of(context)
                               .textTheme
-                              .button!
+                              .labelLarge!
                               .copyWith(color: Colors.deepPurple),
                         ),
                         onPressed: () {
@@ -333,7 +333,7 @@ class Card3 extends StatelessWidget {
                             "Items",
                             style: Theme.of(context)
                                 .textTheme
-                                .bodyText1!
+                                .bodyLarge!
                                 .copyWith(color: Colors.white),
                           ),
                         ),
